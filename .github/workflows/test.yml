@@ -2,9 +2,9 @@ name: Granja Animales Node.js CI
 
 on:
   push:
-    branches: [ "main", "feat-nuevoanimal" ]
+    branches: [ "master", "feat-nuevoanimal" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
